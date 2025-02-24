@@ -74,7 +74,7 @@ galleryEl.addEventListener("click", function (e) {
 
     clearTimeout(timer);
     galleryContEl.style.overflow = "hidden";
-    galleryContEl.style.height = "100vh";
+    galleryContEl.style.height = "100dvh";
 });
 
 document.body.addEventListener("click", function (e) {
